@@ -41,8 +41,57 @@ The app itself consists of four parts: the database, the request balancer, the G
 - The less requests, the better - find the optimal path toward least API calls to Github's servers
 - User engagement is important, as well as full database visibility and code transparency (all open source, clean, and documented)
 
+## Potential Data Points
+Data points are separated into four sections in the UI: the Github Overview (which shows points about all data collected) and data by Organization, User, and Repo.
+
+Please feel free to fork and add to this list!
+
+### Github Overview
+- Users
+  - Most active users (user with most contributions - contributions to larger repositories are weighted more)
+  - Linus number distribution chart
+  - Rising stars (new developers with high weighted contributions)
+  - Just Joined (brand new users - live)
+- Repos
+  - Count of all repos
+  - Largest developer communities (includes not just commits, but contributions)
+  - Most active repositories (most commits in the last few days)
+  - Hidden gems (active repos with lower contributions)
+  - Largest wikis
+- Organizations
+  - Most active organizations
+  - Most repositories
+  - Most public users
+  - Most influence (forks)
+
+### Organization
+- Users' activity
+- Number of repositories
+- Languages of repositories
+- Influence ranking (count of forks)
+- Active
+- Private information (if logged it and part of org)
+  - All of above, plus specification by team
+
+### User
+- Your Linus Number (distance to someone that committed to the Linux repository)
+- Location
+  - Other basic details
+- Total contributions
+- Number of repos owned
+- Number of repos contributed to
+- Contributions / year
+- Timing of contributions (morning, day, night, etc.)
+- Contribution ratio (yours / others)
+- Language graph (most frequent programming languages used)
+
+### Repo
+- Entire network graph
+- Entire contributors list
+
+
 ## Support this Project
-This project **currently runs on your stars and feedback**.  GitBigData encourages you to fork or clone this repository with the objective to return data back into the project.  My personal email, for any feedback or interests in this project, is pachachura.arthur@gmail.com.
+This project **currently runs on your stars and feedback**.  GitBigData encourages you to fork or clone this repository with the objective to return data back into the project.  My personal email, for any feedback to, interest in, or advise for this project, is pachachura.arthur@gmail.com.
 
 Thank you for your interest in this project!
 
