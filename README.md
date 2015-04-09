@@ -1,7 +1,7 @@
 # GitBigData
 Displays every public metric possible about Github, its users, its organizations, its repos, and its impact on the global community.
 
-**Call to developers and idea-makers:** see below to help support this project
+**Call to developers and idea-makers:** see below to [help support this project](https://github.com/smo-key/gitbigdata/blob/master/README.md#support-this-project)
 
 ## How it started
 GitBigData started when I browsed the network graph of Github's largest project I know of - the linux kernel.  After finding the graph unavailable (and for good reason, it's huge!), I decided to try to make an app to create these large, unavailable network graphs.  From that moment, the idea evolved into a project dedicated with indexing the entirety of public Github and to mine these nodes of data into useful analytics for the common Github user.
