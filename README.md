@@ -1,4 +1,4 @@
-![Git Big Data logo](https://raw.githubusercontent.com/smo-key/gitbigdata/master/img/gitbigdata-extended-256.png)
+![Git Big Data logo](https://raw.githubusercontent.com/smo-key/gitbigdata/master/img/gitbigdata-extended-gh.png)
 
 Displays every public metric possible about Github, its users, its organizations, its repos, and its impact on the global community.
 
