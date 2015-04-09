@@ -1,4 +1,5 @@
-# GitBigData
+![Git Big Data logo](https://raw.githubusercontent.com/smo-key/gitbigdata/master/img/gitbigdata-extended-256.png)
+
 Displays every public metric possible about Github, its users, its organizations, its repos, and its impact on the global community.
 
 **Call to developers and idea-makers:** see below to [help support this project](https://github.com/smo-key/gitbigdata#support-this-project)
