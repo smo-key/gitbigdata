@@ -28,7 +28,7 @@ The app itself consists of four mian parts: the database, the request balancer, 
 ## Stages of Development
 - [ ] Stage 1: Get data by the repo or user, no live or initialize scraper
 - [ ] Stage 1.1: Web interface for repo and user sections
-- [ ] Stage 2.0: Email Github, explain the app, ask for the best practice to receive such a large amount of data at a time and ask for rate limit increase (ex. http://stackoverflow.com/questions/19889899/count-number-of-empty-repositories-on-github)
+- [ ] Stage 2.0: Begin campaign to ask users to donate a portion of their API time to the app (suggested by Github staff)
 - [ ] Stage 2.1: Scrape for every repository possible (starting with Linux or continuous list), wait a while
 - [ ] Stage 3: Scrape these repositories for additional metrics, one or two at a time
 - [ ] Stage 4: Social media scraping (to find Github's impact on global code community)
@@ -40,7 +40,7 @@ The app itself consists of four mian parts: the database, the request balancer, 
 - Asynchronous threading is controlled and rate limited so as to not pose a threat to Github's servers
 - Parsers are modular, taking in data metric files (javascript with a few required and special functions) and parsing the data into data points displayed to the user
 - Compression algorithms value storage space over computation speed but are prepared for a migration to a more rapid but space-intensive algorithm (I'm not working with very large storage servers here yet, but have significant processing power)
-- The less requests, the better - find the optimal path toward least API calls to Github's servers
+- The less requests, the better - find the optimal path toward least API calls to Github's servers and use resorces such as https://www.githubarchive.org/, http://ghtorrent.org/, and https://libgit2.github.com/ to gather more data, faster, without the need to go through GitHub's servers.
 - User engagement is important, as well as full database visibility and code transparency (all open source, clean, and documented)
 
 ## Potential Data Points
