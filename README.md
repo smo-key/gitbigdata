@@ -10,7 +10,7 @@ GitBigData started when I browsed the network graph of Github's largest project 
 ## How it works
 GitBigData is an app written in NodeJS to scan Github's public users, repositories, and organizations and collect this data into comprehensible statistics.
 
-The app itself consists of four mian parts: the database, the request balancer, the Github API and social media scraper, the parser, and finally the web interface.
+The app itself consists of four main parts: the database, the request balancer, the Github API and social media scraper, the parser, and finally the web interface.
 
 - **Overview: Balancer -> Scrapers -> Parsers -> Web interface**
 - Database: MongoDB - stores the nodes of data downloaded by scrapers and the human-friendly results from the parsers
