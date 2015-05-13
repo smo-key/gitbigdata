@@ -1,0 +1,32 @@
+{
+  "name": "gitbigdata",
+  "version": "0.1.0",
+  "homepage": "https://github.com/smo-key/gitbigdata",
+  "authors": [
+    "Arthur Pachachura <pachachura.arthur@gmail.com>"
+  ],
+  "description": "Display every public metric possible about GitHub, its users, its organizations, its repos, and its impact on the global community",
+  "main": "gitbigdata.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Git",
+    "Big",
+    "Data",
+    "GitBigData",
+    "GitHub"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-ajax": "Polymer/core-ajax#~0.5.6",
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}
