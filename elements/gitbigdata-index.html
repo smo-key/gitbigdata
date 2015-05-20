@@ -86,32 +86,41 @@
         top: 6px;
       }
       #core_card {
-        border-radius: 2px;
-        border-width: thick;
-        border-color:crimson;
+        border: 1px solid #000;
+        border-color: grey;
         box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
-        left: 0px;
-        top: 20px;
-        position: relative;
+        top: 500px;
+/*        position: relative;*/
         width: 300px;
         height: 210px;
         margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0px;
         background-image: url(http://upload.wikimedia.org/wikipedia/commons/9/91/Bush_disapproval_ratings_line_graph.png);
         background-size: cover;
         background-position: 50% 50%;
+      }
+      #container {
+        position: relative;
+        top: 46px;
+        width: 100%;
+        text-align: center;
       }
       #anumber {
         position: relative;
         width: 100%;
         text-align: center;
         font-size: 64px;
+        font-family: open-sans;
         margin: -4px 0px 12px;
-        padding: 0px;
+        margin-bottom: 0px;
+        padding: 5px;
       }
       #astring {
         text-align: center;
         font-size: 16px;
+        font-family: open-sans-light;
         padding: 0px;
         margin: 0px;
       }
@@ -147,11 +156,13 @@
     </core-toolbar>
     <paper-progress value="100" ratio="100" id="toolbar-top"></paper-progress>
     
-  <core-card id="core_card" vertical layout center center-justified>
-    <h1 id="anumber">420,000</h1>
-    <h4 id="astring">Repositories on GitHub</h4>
-  </core-card>
-  
+
+  <div id="container">
+    <core-card id="core_card" layout vertical center-justified>
+      <h1 id="anumber">420,000</h1>
+      <h4 id="astring">Repositories on GitHub</h4>
+    </core-card>
+  </div>
 
 
   </template>
